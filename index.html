@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Responsive Iframe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #myIframe {
+        border: 5px solid cornflowerblue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="background-color: #f5b162; height: 80px">
+      <h1>Above iframe</h1>
+    </div>
+    <div class="container">
+      <iframe
+        id="myIframe"
+        src="iframe.html"
+        frameborder="0"
+        width="100%"
+        scrolling="no"
+      ></iframe>
+    </div>
+    <div style="background-color: #495ca5; height: 80px;">
+      <h1>Below iframe</h1>
+    </div>
+
+    <script src="parent.js"></script>
+  </body>
+</html>
