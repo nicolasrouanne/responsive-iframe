@@ -1,7 +1,7 @@
 {
-  "name": "iframe-postmessage-with-media-queries",
+  "name": "iframe-responsive-with-react-app",
   "version": "1.0.0",
-  "description": "Create an <iframe /> that displays full size into the host document.",
+  "description": "Create an <iframe /> hosting a React App that displays full size into the host document.",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
